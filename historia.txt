@@ -93,6 +93,12 @@ Date:   Fri Apr 7 13:37:23 2023 +0200
 
 doria@LAPTOP-944TO4P1 MINGW64 ~/OneDrive/Pulpit/Prework (master)
 $ git log
+commit ed96bd09cdab3635ee0033a2ce9e9780613ce4d9 (HEAD -> master)
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:47:47 2023 +0200
+
+    utworzono plik historia.txt oraz dodano logi z gita
+
 commit b30df50fe64b30411fc7f8f74c2bbb7be97bc258 (HEAD -> master)
 Author: Dorian Tissot <dorian.tissot@protonmail.com>
 Date:   Fri Apr 7 13:38:33 2023 +0200
