@@ -1,0 +1,170 @@
+
+doria@LAPTOP-944TO4P1 MINGW64 ~/OneDrive/Pulpit/Prework (master)
+$ git log piosenka.txt
+commit b30df50fe64b30411fc7f8f74c2bbb7be97bc258 (HEAD -> master)
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:38:33 2023 +0200
+
+    zmienino nazwy plików refren-1.txt oraz refren-2.txt na refren.txt
+
+commit 7182ec6588a567bb5d6bab9144bfa07b32df59cc
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:12:12 2023 +0200
+
+    przeniesiono czwartą zwrotkę do osobnego pliku zwrotka-4.txt i zastąpiono jego nazwą
+
+commit b7c2583b4d13eb1773489218887c7300da5c8fca
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:10:52 2023 +0200
+
+    przeniesiono drugi refen do osobnego pliku refren-2.txt i zastąpiono jego nazwą
+
+commit 2ec0209539c13c7c1bef0497e1c44b606e5e9981
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:09:14 2023 +0200
+
+    przeniesiono trzecią zwrotkę do osobnego pliku zwrotka-3.txt i zastąpiono jego nazwą
+
+commit d98dff67d521dd67b0db8063a78c4088805cda78
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:07:31 2023 +0200
+
+    przeniesiono pierwszy refen do osobnego pliku refren-1.txt i zastąpiono jego nazwą
+
+commit 1cd4c3d022800fc185a914ac695fa36c6d01a02d
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:05:20 2023 +0200
+
+    przeniesiono drugą zwrotkę do osobnego pliku zwrotka-2.txt i zastąpiono jego nazwą
+
+commit b36163f4df427af41dd8251a2f0508b06e2234df
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:03:42 2023 +0200
+
+    przeniesiono pierwszą zwrotkę do osobnego pliku zwrotka-1.txt i zastąpiono jego nazwą
+
+commit 3c483a7c45d80403c1757f3288b0370382bfd7b5
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:01:31 2023 +0200
+
+    dodano plik z tekstem piosenki
+
+doria@LAPTOP-944TO4P1 MINGW64 ~/OneDrive/Pulpit/Prework (master)
+$ git log zwrotka-1.txt
+commit b36163f4df427af41dd8251a2f0508b06e2234df
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:03:42 2023 +0200
+
+    przeniesiono pierwszą zwrotkę do osobnego pliku zwrotka-1.txt i zastąpiono jego nazwą
+
+doria@LAPTOP-944TO4P1 MINGW64 ~/OneDrive/Pulpit/Prework (master)
+$ git log zwrotka-2.txt
+commit 1cd4c3d022800fc185a914ac695fa36c6d01a02d
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:05:20 2023 +0200
+
+    przeniesiono drugą zwrotkę do osobnego pliku zwrotka-2.txt i zastąpiono jego nazwą
+
+doria@LAPTOP-944TO4P1 MINGW64 ~/OneDrive/Pulpit/Prework (master)
+$ git log zwrotka-3.txt
+commit 2ec0209539c13c7c1bef0497e1c44b606e5e9981
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:09:14 2023 +0200
+
+    przeniesiono trzecią zwrotkę do osobnego pliku zwrotka-3.txt i zastąpiono jego nazwą
+
+doria@LAPTOP-944TO4P1 MINGW64 ~/OneDrive/Pulpit/Prework (master)
+$ git log zwrotka-4.txt
+commit 7182ec6588a567bb5d6bab9144bfa07b32df59cc
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:12:12 2023 +0200
+
+    przeniesiono czwartą zwrotkę do osobnego pliku zwrotka-4.txt i zastąpiono jego nazwą
+
+doria@LAPTOP-944TO4P1 MINGW64 ~/OneDrive/Pulpit/Prework (master)
+$ git log refren.txt
+commit a19690e0ba8600dcde2c51fad5f4f6f1ec6ea316
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:37:23 2023 +0200
+
+    zmieniono nazwę pliku refren-1.txt na refren.txt
+
+
+
+doria@LAPTOP-944TO4P1 MINGW64 ~/OneDrive/Pulpit/Prework (master)
+$ git log
+commit b30df50fe64b30411fc7f8f74c2bbb7be97bc258 (HEAD -> master)
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:38:33 2023 +0200
+
+    zmienino nazwy plików refren-1.txt oraz refren-2.txt na refren.txt
+
+commit a19690e0ba8600dcde2c51fad5f4f6f1ec6ea316
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:37:23 2023 +0200
+
+    zmieniono nazwę pliku refren-1.txt na refren.txt
+
+commit 7dfb5c767b42cd333e9f34d74dae8e648e2bb4a0
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:34:23 2023 +0200
+
+    usunięto plik refren-2.txt
+
+commit 00006d7e6ef01e6c870582d9d03ba3bf3dbf843e
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:27:57 2023 +0200
+
+    Revert "usunięto pierwszą linię tekstu"
+
+    This reverts commit f38e7ebaa2f4c811f9cf0710406d0fc83e48348a.
+
+commit f38e7ebaa2f4c811f9cf0710406d0fc83e48348a
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:16:11 2023 +0200
+
+    usunięto pierwszą linię tekstu
+
+commit 7182ec6588a567bb5d6bab9144bfa07b32df59cc
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:12:12 2023 +0200
+
+    przeniesiono czwartą zwrotkę do osobnego pliku zwrotka-4.txt i zastąpiono jego nazwą
+
+commit b7c2583b4d13eb1773489218887c7300da5c8fca
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:10:52 2023 +0200
+
+    przeniesiono drugi refen do osobnego pliku refren-2.txt i zastąpiono jego nazwą
+
+commit 2ec0209539c13c7c1bef0497e1c44b606e5e9981
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:09:14 2023 +0200
+
+    przeniesiono trzecią zwrotkę do osobnego pliku zwrotka-3.txt i zastąpiono jego nazwą
+
+commit d98dff67d521dd67b0db8063a78c4088805cda78
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:07:31 2023 +0200
+
+    przeniesiono pierwszy refen do osobnego pliku refren-1.txt i zastąpiono jego nazwą
+
+commit 1cd4c3d022800fc185a914ac695fa36c6d01a02d
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:05:20 2023 +0200
+
+    przeniesiono drugą zwrotkę do osobnego pliku zwrotka-2.txt i zastąpiono jego nazwą
+
+commit b36163f4df427af41dd8251a2f0508b06e2234df
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:03:42 2023 +0200
+
+    przeniesiono pierwszą zwrotkę do osobnego pliku zwrotka-1.txt i zastąpiono jego nazwą
+
+commit 3c483a7c45d80403c1757f3288b0370382bfd7b5
+Author: Dorian Tissot <dorian.tissot@protonmail.com>
+Date:   Fri Apr 7 13:01:31 2023 +0200
+
+    dodano plik z tekstem piosenki
+
+
